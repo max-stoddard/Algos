@@ -1,9 +1,8 @@
-This lecture is about divide-and-conquer algorithms and dynamic programming
-
 > module DivideAndConquer where
 
 > import Prelude hiding (partition, splitAt)
 
+This lecture is about divide-and-conquer algorithms and dynamic programming
 Regrettably, reading these notes does not have the same narrative
 oomph factor as watching the lecture, curse you imports at top of file!
 Spoilers: Haskell has arrays.

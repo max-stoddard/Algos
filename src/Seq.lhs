@@ -1,11 +1,10 @@
-This lecture is about different kinds of lists (sequences).
-
 > module Seq where
 
 > import Prelude hiding ((++), concat, foldr, foldl, Monoid, length, head, tail, init, last, (!!))
 
 > import Data.List qualified as List
 
+This lecture is about different kinds of lists (sequences).
 In Haskell, we have access to singly-linked lists. These are
 *persistent* data-structures. Let's review their anatomy:
 
@@ -238,6 +237,7 @@ the operations we'd like them all to have. Some of these can have default implem
 >   init   :: seq a -> seq a
 >   last   :: seq a -> a
 >   (!!)   :: seq a -> Int -> a -- pronounce "bang (gasp)"
+>   null   :: seq a -> Bool
 
 We will also add two special ones:
 

@@ -1,11 +1,10 @@
-In this lecture, we will leave `Seq` behind, and start looking at a new
-class of datastructure.
-
 > module Poset where
 
 > import qualified Seq
 > import Data.List qualified as List
 
+In this lecture, we will leave `Seq` behind, and start looking at a new
+class of datastructure.
 So far in this course, we've been looking at sequential datastructures, where
 the order of the elements matter. We've seen efficient linear seqeunces, like
 `[]` and `Deque`, efficient constructors like `DList`, and efficient indexed

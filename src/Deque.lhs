@@ -1,10 +1,9 @@
-This lecture will explore *amortised complexity* via a new Seq, called:
-
 > module Deque where
 
 > import Seq (Seq(..))
 > import qualified Seq
 
+This lecture will explore *amortised complexity* via a new Seq, called:
 So for in this course, we've been writing algorithms and datastructures
 where complexity of each operation is fixed and isolated.
 In this lecture we will see examples of operations that in isolation
@@ -56,6 +55,7 @@ This will be helpful in our implementation of `Seq`:
 >
 >   nil :: Deque a
 >   nil = Deque 0 [] []
+>
 
 Currently we have one invariance, but we will see it's
 not enough. We can give some easy definitions for `cons`

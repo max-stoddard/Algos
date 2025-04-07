@@ -1,11 +1,11 @@
-This lecture will see another counting system, and another datastructure
-for sets: the red-black tree
-
 > module RBTree where
 
 > import Poset hiding (Tree(..))
 > import Seq qualified
 > import Data.List qualified as List (delete)
+
+This lecture will see another counting system, and another datastructure
+for sets: the red-black tree
 
 Red-black trees are an example of a self-balancing tree that allows for
 more bias than an AVL tree does. It will also turn out that constructing

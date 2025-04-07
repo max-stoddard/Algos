@@ -1,8 +1,9 @@
-This lecture will remind us about Haskell, and lazy/strict evaluation
-
 > module Intro where
 
 > import Prelude hiding (minimum)
+
+This lecture will remind us about Haskell, and lazy/strict evaluation
+
 
 The goals of this course:
 

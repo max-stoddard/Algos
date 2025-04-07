@@ -1,7 +1,6 @@
-This lecture continues the discussion on dynamic programming.
-
 > module DynamicProgramming where
 
+This lecture continues the discussion on dynamic programming.
 For this lecture, we are going to dip into the representations
 of lists that we encoded within the lecture on difference lists.
 
@@ -12,7 +11,7 @@ We will also need the arrays and tabulation that were introduced in
 the previous lecture
 
 > import Data.Array
-> import Tabulate
+> import DivideAndConquer
 
 We are also going to use some helpful functions on lists/functions
 to describe our problem solutions clearly.

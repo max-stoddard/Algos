@@ -1,27 +1,29 @@
 cabal-version:      3.0
 name:               Algos
 version:            0.1.0.0
--- synopsis:
--- description:
 license:            MIT
 license-file:       LICENSE
 author:             Max Stoddard
 maintainer:         maxdstoddard@icloud.com
--- copyright:
 category:           Notes
 build-type:         Simple
 extra-doc-files:    CHANGELOG.md
--- extra-source-files:
-
-common warnings
-    ghc-options: -Wall
 
 executable Algos
-    import:           warnings
-    main-is:          Main.hs
-    -- other-modules:
-    -- other-extensions:
-    build-depends:    base ^>=4.17.2.1
+    main-is:  _All.hs
+
+    other-modules:
+        Intro
+        Seq
+        Deque
+        DivideAndConquer
+        DynamicProgramming
+        RandomAccessList
+        Poset
+        RBTree
+    build-depends:
+        base >=4.17.2.1 && <4.18
+        , array
+        -- Add other dependencies here, e.g., containers
     hs-source-dirs:   src
-    exposed-modules:  Seq, Deque
     default-language: GHC2021

@@ -1,6 +1,3 @@
-In this lecture, we will come up with a representation of lists with constant appending
-and prepending, but with log(n) indexing.
-
 > module RandomAccessList where
 
 > import Prelude hiding (head, init, last, tail, length, null, (!!))
@@ -8,6 +5,8 @@ and prepending, but with log(n) indexing.
 > import Seq (Seq(..), DList)
 > import Data.Maybe (catMaybes)
 
+In this lecture, we will come up with a representation of lists with constant appending
+and prepending, but with log(n) indexing.
 This is a representation of natural numbers, with `Z` representing 0, and `S` representing (+1):
 
 > data Nat = Z | S Nat
